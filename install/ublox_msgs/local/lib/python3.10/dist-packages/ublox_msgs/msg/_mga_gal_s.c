@@ -1,0 +1,1 @@
+/home/nuc11/ublox_ws/build/ublox_msgs/rosidl_generator_py/ublox_msgs/msg/_mga_gal_s.c

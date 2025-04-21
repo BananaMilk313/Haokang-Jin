@@ -1,0 +1,1 @@
+/home/nuc11/ublox_ws/build/ublox_msgs/rosidl_generator_c/ublox_msgs/msg/detail/cfg_nmea7__struct.h

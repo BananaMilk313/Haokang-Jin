@@ -1,0 +1,121 @@
+[0.007s] Invoking command in '/home/nuc11/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:/home/nuc11/ros2_ws/install/multisense_ros:/home/nuc11/ros2_ws/install/xacro:/home/nuc11/ros2_ws/install/segway_msgs:/home/nuc11/ros2_ws/install/ouster_ros:/home/nuc11/ros2_ws/install/ouster_sensor_msgs:/home/nuc11/ros2_ws/install/multisense_msgs:/home/nuc11/ros2_ws/install/multisense_lib:/home/nuc11/ros2_ws/install/point_cloud_downsampling:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc11/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc11/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nuc11/ublox_ws/src/ros2-ublox-zedf9p/ublox_gps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc11/ublox_ws/install/ublox_gps
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.188s] -- Detecting CXX compiler ABI info - done
+[0.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.193s] -- Detecting CXX compile features
+[0.193s] -- Detecting CXX compile features - done
+[0.195s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.297s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.329s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.348s] -- Found asio: /usr/include  
+[0.350s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.371s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.374s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.422s] -- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.457s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.459s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.478s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.485s] -- Looking for pthread.h
+[0.534s] -- Looking for pthread.h - found
+[0.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.583s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.584s] -- Found Threads: TRUE  
+[0.614s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.622s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.643s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.654s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.656s] -- Found ublox_msgs: 2.2.0 (/home/nuc11/ublox_ws/install/ublox_msgs/share/ublox_msgs/cmake)
+[0.709s] -- Configuring done
+[0.719s] -- Generating done
+[0.722s] -- Build files have been written to: /home/nuc11/ublox_ws/build/ublox_gps
+[0.727s] Invoked command in '/home/nuc11/ublox_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:/home/nuc11/ros2_ws/install/multisense_ros:/home/nuc11/ros2_ws/install/xacro:/home/nuc11/ros2_ws/install/segway_msgs:/home/nuc11/ros2_ws/install/ouster_ros:/home/nuc11/ros2_ws/install/ouster_sensor_msgs:/home/nuc11/ros2_ws/install/multisense_msgs:/home/nuc11/ros2_ws/install/multisense_lib:/home/nuc11/ros2_ws/install/point_cloud_downsampling:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc11/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc11/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nuc11/ublox_ws/src/ros2-ublox-zedf9p/ublox_gps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc11/ublox_ws/install/ublox_gps
+[0.728s] Invoking command in '/home/nuc11/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:/home/nuc11/ros2_ws/install/multisense_ros:/home/nuc11/ros2_ws/install/xacro:/home/nuc11/ros2_ws/install/segway_msgs:/home/nuc11/ros2_ws/install/ouster_ros:/home/nuc11/ros2_ws/install/ouster_sensor_msgs:/home/nuc11/ros2_ws/install/multisense_msgs:/home/nuc11/ros2_ws/install/multisense_lib:/home/nuc11/ros2_ws/install/point_cloud_downsampling:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc11/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc11/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc11/ublox_ws/build/ublox_gps -- -j16 -l16
+[0.764s] [  4%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[0.764s] [  9%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[0.764s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[0.764s] [ 18%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[0.765s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[0.765s] [ 31%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[0.765s] [ 31%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[0.765s] [ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[0.765s] [ 40%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/logger_node_pa.cpp.o[0m
+[0.765s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[0.765s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/raw_data_pa.cpp.o[0m
+[0.765s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[0.766s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[0.766s] [ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[0.766s] [ 68%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[0.766s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[0.801s] [ 77%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[1.043s] [ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[15.179s] [ 86%] [32m[1mLinking CXX executable ublox_logger[0m
+[15.477s] [ 86%] Built target ublox_logger_node
+[17.893s] [ 90%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[19.291s] [ 90%] Built target ublox_gps
+[19.304s] [ 95%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[21.963s] [100%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[22.336s] [100%] Built target ublox_gps_node
+[22.343s] Invoked command in '/home/nuc11/ublox_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:/home/nuc11/ros2_ws/install/multisense_ros:/home/nuc11/ros2_ws/install/xacro:/home/nuc11/ros2_ws/install/segway_msgs:/home/nuc11/ros2_ws/install/ouster_ros:/home/nuc11/ros2_ws/install/ouster_sensor_msgs:/home/nuc11/ros2_ws/install/multisense_msgs:/home/nuc11/ros2_ws/install/multisense_lib:/home/nuc11/ros2_ws/install/point_cloud_downsampling:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc11/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc11/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc11/ublox_ws/build/ublox_gps -- -j16 -l16
+[22.344s] Invoking command in '/home/nuc11/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:/home/nuc11/ros2_ws/install/multisense_ros:/home/nuc11/ros2_ws/install/xacro:/home/nuc11/ros2_ws/install/segway_msgs:/home/nuc11/ros2_ws/install/ouster_ros:/home/nuc11/ros2_ws/install/ouster_sensor_msgs:/home/nuc11/ros2_ws/install/multisense_msgs:/home/nuc11/ros2_ws/install/multisense_lib:/home/nuc11/ros2_ws/install/point_cloud_downsampling:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc11/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc11/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc11/ublox_ws/build/ublox_gps
+[22.347s] -- Install configuration: ""
+[22.348s] -- Execute custom install script
+[22.348s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/lib/libublox_gps.so
+[22.354s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[22.359s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+[22.364s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/adr_udr_product.hpp
+[22.368s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/async_worker.hpp
+[22.373s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/callback.hpp
+[22.377s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/component_interface.hpp
+[22.383s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/fix_diagnostic.hpp
+[22.388s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/fts_product.hpp
+[22.392s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/gnss.hpp
+[22.397s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/gps.hpp
+[22.401s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/hp_pos_rec_product.hpp
+[22.406s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/hpg_ref_product.hpp
+[22.412s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/hpg_rov_product.hpp
+[22.417s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/mkgmtime.h
+[22.423s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/node.hpp
+[22.427s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/raw_data_pa.hpp
+[22.432s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/raw_data_product.hpp
+[22.436s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/rtcm.hpp
+[22.443s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/tim_product.hpp
+[22.447s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware.hpp
+[22.452s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware6.hpp
+[22.456s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7.hpp
+[22.461s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7plus.hpp
+[22.467s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware8.hpp
+[22.472s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware9.hpp
+[22.477s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_topic_diagnostic.hpp
+[22.482s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/utils.hpp
+[22.487s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/include/ublox_gps/worker.hpp
+[22.492s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/launch/__pycache__/ublox_gps_node_zedf9p-launch.cpython-310.pyc
+[22.497s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[22.502s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node_zedf9p-launch.py
+[22.506s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[22.512s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[22.517s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[22.522s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[22.528s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[22.533s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+[22.538s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[22.542s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+[22.549s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+[22.554s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[22.559s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[22.563s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/package.dsv
+[22.568s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[22.574s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[22.579s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[22.583s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[22.590s] -- Symlinking: /home/nuc11/ublox_ws/install/ublox_gps/share/ublox_gps/package.xml
+[22.595s] Invoked command in '/home/nuc11/ublox_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc11/ublox_ws/install/ublox_msgs:/home/nuc11/ublox_ws/install/ublox_serialization:/home/nuc11/ros2_ws/install/multisense_ros:/home/nuc11/ros2_ws/install/xacro:/home/nuc11/ros2_ws/install/segway_msgs:/home/nuc11/ros2_ws/install/ouster_ros:/home/nuc11/ros2_ws/install/ouster_sensor_msgs:/home/nuc11/ros2_ws/install/multisense_msgs:/home/nuc11/ros2_ws/install/multisense_lib:/home/nuc11/ros2_ws/install/point_cloud_downsampling:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc11/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc11/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc11/ublox_ws/build/ublox_gps
