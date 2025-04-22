@@ -22,9 +22,3 @@ git checkout gps_ws
 ```
 
 
-Further instructions for building and running the project would typically go here.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
